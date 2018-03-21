@@ -15,7 +15,19 @@ public class Main {
     // Add some System.out.println's in the two methods above as well.
 
     Bank myAcct = new Bank();
+    myAcct.setAcctNum("123456789");
+    myAcct.setBalance(100.55);
+    myAcct.setAcctHolder("Tito");
+    myAcct.setEmail("tito@yslas.com");
+    myAcct.setPhoneNum("303-303-3030");
 
-    myAcct.getAcctNum("123456789")
+    System.out.println("Account Number: " + myAcct.getAcctNum());
+    System.out.println("Balance: $" + myAcct.getBalance());
+    System.out.println("Account Holder: " + myAcct.getAcctHolder());
+    System.out.println("Email: " + myAcct.getEmail());
+    System.out.println("Phone Number: " + myAcct.getPhoneNum());
+
+    System.out.printf("Balance after deposit: $%s%n", myAcct.deposit(37.46));
+    System.out.printf("Balance after withdrawal: $%s%n", myAcct.withdrawal(60.02));
   }
 }
