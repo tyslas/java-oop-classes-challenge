@@ -7,6 +7,20 @@ public class Bank {
   private String email;
   private String phoneNum;
 
+  public Bank() {
+    this("135792468", "10.00", "Default Name", "Default Email", "Default Phone");
+    System.out.println("empty constructor called" + "\n");
+  }
+
+  public Bank(String acctNum, String balance, String acctHolder, String email, String phoneNum) {
+    System.out.println("account constructor w/parameters called");
+    this.acctNum = acctNum;
+    this.balance = balance;
+    this.acctHolder = acctHolder;
+    this.email = email;
+    this.phoneNum = phoneNum;
+  }
+
   public void setAcctNum(String userAcct) {
     this.acctNum = userAcct;
   }
@@ -60,7 +74,7 @@ public class Bank {
 
   public void withdrawal(double withdrawalAmt) {
     double currBalance = Double.parseDouble(this.balance);
-    
+
     if (withdrawalAmt > currBalance) {
       System.out.println("insufficient funds");
     }

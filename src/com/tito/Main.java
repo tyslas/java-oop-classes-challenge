@@ -14,7 +14,16 @@ public class Main {
     // confirm your code is working.
     // Add some System.out.println's in the two methods above as well.
 
+    Bank newAcct = new Bank("0987654321", "50.00", "Cisco", "cisco@cisco.com", "111-111-1111");
     Bank myAcct = new Bank();
+    Bank acct2 = new Bank();
+
+    System.out.println("2 - Acct Num: " + acct2.getAcctNum());
+    System.out.println("2 - Balance: $" + acct2.getBalance());
+    System.out.println("2 - Acct Holder: " + acct2.getAcctHolder());
+    System.out.println("2 - Email: " + acct2.getEmail());
+    System.out.println("2 - Phone: " + acct2.getPhoneNum() + "\n");
+
     myAcct.setAcctNum("123456789");
     myAcct.setBalance(100.55);
     myAcct.setAcctHolder("Tito");
@@ -25,11 +34,20 @@ public class Main {
     System.out.println("Balance: $" + myAcct.getBalance());
     System.out.println("Account Holder: " + myAcct.getAcctHolder());
     System.out.println("Email: " + myAcct.getEmail());
-    System.out.println("Phone Number: " + myAcct.getPhoneNum());
-
+    System.out.println("Phone Number: " + myAcct.getPhoneNum() + "\n");
     myAcct.deposit(37.46);
-//    System.out.printf("Balance after deposit: $%s%n", myAcct.deposit(37.46));
     myAcct.withdrawal(138.02);
+    System.out.println("\n");
+
+    System.out.println("Account Number: " + newAcct.getAcctNum());
+    System.out.println("Balance: $" + newAcct.getBalance());
+    System.out.println("Account Holder: " + newAcct.getAcctHolder());
+    System.out.println("Email: " + newAcct.getEmail());
+    System.out.println("Phone Number: " + newAcct.getPhoneNum() + "\n");
+    newAcct.deposit(25.23);
+    newAcct.withdrawal(36.55);
+
+//    System.out.printf("Balance after deposit: $%s%n", myAcct.deposit(37.46));
 //    System.out.printf("Balance after withdrawal: $%s%n", myAcct.withdrawal(60.02));
   }
 }
