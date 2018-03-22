@@ -50,22 +50,25 @@ public class Bank {
     return phoneNum;
   }
 
-  public String deposit(double depositAmt) {
+  public void deposit(double depositAmt) {
     double upBalance = Double.parseDouble(this.balance);
     double depositBalance = upBalance + depositAmt;
     String strBalance = String.valueOf(depositBalance);
     this.balance = strBalance;
-    return this.getBalance();
+    System.out.println("Balance after deposit: $" + strBalance);
   }
 
-  public String withdrawal(double withdrawalAmt) {
+  public void withdrawal(double withdrawalAmt) {
     double currBalance = Double.parseDouble(this.balance);
-
-    if (withdrawalAmt > currBalance) return "insufficient funds";
-
-    double withdrawalBalance = currBalance - withdrawalAmt;
-    String strBalance = String.valueOf(withdrawalBalance);
-    this.balance = strBalance;
-    return this.getBalance();
+    
+    if (withdrawalAmt > currBalance) {
+      System.out.println("insufficient funds");
+    }
+    else {
+      double withdrawalBalance = currBalance - withdrawalAmt;
+      String strBalance = String.valueOf(withdrawalBalance);
+      this.balance = strBalance;
+      System.out.println("Balance after withdrawal: $" + strBalance);
+    }
   }
 }

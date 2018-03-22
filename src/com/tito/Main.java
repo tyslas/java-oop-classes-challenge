@@ -27,7 +27,9 @@ public class Main {
     System.out.println("Email: " + myAcct.getEmail());
     System.out.println("Phone Number: " + myAcct.getPhoneNum());
 
-    System.out.printf("Balance after deposit: $%s%n", myAcct.deposit(37.46));
-    System.out.printf("Balance after withdrawal: $%s%n", myAcct.withdrawal(60.02));
+    myAcct.deposit(37.46);
+//    System.out.printf("Balance after deposit: $%s%n", myAcct.deposit(37.46));
+    myAcct.withdrawal(138.02);
+//    System.out.printf("Balance after withdrawal: $%s%n", myAcct.withdrawal(60.02));
   }
 }
