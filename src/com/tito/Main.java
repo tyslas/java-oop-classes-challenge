@@ -62,7 +62,7 @@ public class Main {
     // create getters only for this using code generation of intellij as setters wont be needed
     // test and confirm it works.
     VipClient vip0 = new VipClient();
-    VipClient vip2 = new VipClient("King James", "king@nike.com");
+    VipClient vip2 = new VipClient("King James", 500000.00);
     VipClient vip3 = new VipClient("Chef Curry", 250000.00, "chef@ua.com");
 
     System.out.println("0 - client name: " + vip0.getClientName());

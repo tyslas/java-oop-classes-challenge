@@ -27,7 +27,7 @@ public class VipClient {
     this("default client name", 10000.00, "default@email.com");
   }
 
-  public VipClient(String clientName, String email) {
-    this(clientName, 20000.00, email);
+  public VipClient(String clientName, double creditLimit) {
+    this(clientName, creditLimit, "unknown@email.com");
   }
 }
