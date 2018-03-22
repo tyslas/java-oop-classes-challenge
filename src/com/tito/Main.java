@@ -53,7 +53,7 @@ public class Main {
 //    System.out.printf("Balance after withdrawal: $%s%n", myAcct.withdrawal(60.02));
 
     // Constructors Challenge:
-    // Create a new class VipCustomer
+    // Create a new class VipClient
     // it should have 3 fields name, credit limit, and email address.
     // create 3 constructors
     // 1st constructor empty should call the constructor with 3 parameters with default values
@@ -61,9 +61,9 @@ public class Main {
     // 3rd constructor should save all fields.
     // create getters only for this using code generation of intellij as setters wont be needed
     // test and confirm it works.
-    VipCustomer vip0 = new VipCustomer();
-    VipCustomer vip2 = new VipCustomer("King James", "king@nike.com");
-    VipCustomer vip3 = new VipCustomer("Chef Curry", 250000.00, "chef@ua.com");
+    VipClient vip0 = new VipClient();
+    VipClient vip2 = new VipClient("King James", "king@nike.com");
+    VipClient vip3 = new VipClient("Chef Curry", 250000.00, "chef@ua.com");
 
     System.out.println("0 - client name: " + vip0.getClientName());
     System.out.println("0 - credit limit: $" + vip0.getCreditLimit());

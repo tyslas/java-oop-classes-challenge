@@ -1,6 +1,6 @@
 package com.tito;
 
-public class VipCustomer {
+public class VipClient {
   private String clientName;
   private double creditLimit;
   private String email;
@@ -17,17 +17,17 @@ public class VipCustomer {
     return this.email;
   }
 
-  public VipCustomer(String clientName, double creditLimit, String email) {
+  public VipClient(String clientName, double creditLimit, String email) {
     this.clientName = clientName;
     this.creditLimit = creditLimit;
     this.email = email;
   }
 
-  public VipCustomer() {
+  public VipClient() {
     this("default client name", 10000.00, "default@email.com");
   }
 
-  public VipCustomer(String clientName, String email) {
+  public VipClient(String clientName, String email) {
     this(clientName, 20000.00, email);
   }
 }

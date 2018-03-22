@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="896bf864-4d87-405f-8840-c268c27943ac" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/tito/VipCustomer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/tito/VipClient.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-oop-classes-challenge/com/tito/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-oop-classes-challenge/com/tito/VipCustomer.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/com/tito/Main.java" afterPath="$PROJECT_DIR$/src/com/tito/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/tito/VipCustomer.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tito/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="65" column="62" lean-forward="false" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+            <state relative-caret-position="397">
+              <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -53,22 +56,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VipCustomer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tito/VipCustomer.java">
+      <file leaf-file-name="VipClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tito/VipClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="435">
+              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,11 +91,13 @@
       <find>amount</find>
       <find>newBalance</find>
       <find>myAcct</find>
+      <find>VipCustomer</find>
     </findStrings>
     <replaceStrings>
       <replace>depositAmt</replace>
       <replace>depositBalance</replace>
       <replace>newAcct</replace>
+      <replace>VipClient</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -107,8 +112,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/tito/Bank.java" />
-        <option value="$PROJECT_DIR$/src/com/tito/Main.java" />
         <option value="$PROJECT_DIR$/src/com/tito/VipCustomer.java" />
+        <option value="$PROJECT_DIR$/src/com/tito/VipClient.java" />
+        <option value="$PROJECT_DIR$/src/com/tito/Main.java" />
       </list>
     </option>
   </component>
@@ -302,12 +308,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521661389995</updated>
       <workItem from="1521661393756" duration="6776000" />
-      <workItem from="1521737550803" duration="9061000" />
+      <workItem from="1521737550803" duration="9745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15837000" />
+    <option name="totallyTimeSpent" value="16521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1600" height="877" extended-state="6" />
@@ -415,6 +421,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tito/VipClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tito/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -442,28 +467,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tito/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="65" column="62" lean-forward="false" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+        <state relative-caret-position="397">
+          <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tito/VipCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
